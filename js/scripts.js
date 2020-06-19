@@ -44,7 +44,8 @@ $(document).ready(function() {
       newPizza.premiumTopping.push($(this).val());
     });
     let pizzaPrice = newPizza.pizzaPrice()
-    $("#output").text(pizzaPrice);
+    $("#total").html(pizzaPrice);
+    $("#output").show();
     console.log(pizzaPrice);
   });
 })

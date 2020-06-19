@@ -1,5 +1,4 @@
 html {
-
   scroll-behavior: smooth;
 }
 
@@ -25,18 +24,18 @@ html {
   
 }
 
+#output {
+  display: none;
+}
+
 #section2 {
   height: 600px;
 }
 
 #pizza-order{
- 
+ font-size: 15px;
 }
 
 .btn {
   font-size: 20px;
-}
-
-.hr {
-  color: blue;
 }
