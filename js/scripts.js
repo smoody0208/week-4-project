@@ -13,12 +13,12 @@ Pizza.prototype.pizzaPrice = function() {
   if (this.standardTopping.length === 0) {
     this.price;
   } else {
-    this.price += (this.standardTopping * 1);
+    this.price += (this.standardTopping.length * 1);
   }
   if (this.premiumTopping.length === 0) {
     this.price;
   } else {
-    this.price += (this.premiumTopping * 2);
+    this.price += (this.premiumTopping.length * 2);
   }  
   if (this.pizzaSize === "small") {
     this.price += 1;
@@ -41,9 +41,10 @@ $(document).ready(function() {
       newPizza.standardTopping.push($(this).val());
     });
     $("input:checkbox[name=premium-topping]:checked").each(function() {
-    newPizza.standardTopping.push($(this).val());
+      newPizza.premiumTopping.push($(this).val());
     });
     let pizzaPrice = newPizza.pizzaPrice()
     $("#output").text(pizzaPrice);
+    console.log(pizzaPrice);
   });
 })
