@@ -29,3 +29,21 @@ Pizza.prototype.pizzaPrice = function() {
   }
   return this.price;
 }
+
+// User Interface ------
+
+$(document).ready(function() {
+  $("form#pizza-order").submit(function(event){
+    event.preventDefault();
+    let pizzaSize = $("input:radio[name=size]:checked").val();
+    let newPizza = new Pizza(pizzaSize);
+    $("input:checkbox[name=standard-topping]:checked").each(function() {
+      newPizza.standardTopping.push($(this).val());
+    });
+    $("input:checkbox[name=premium-topping]:checked").each(function() {
+    newPizza.standardTopping.push($(this).val());
+    });
+    let pizzaPrice = newPizza.pizzaPrice()
+    $("#output").text(pizzaPrice);
+  });
+})
