@@ -1,41 +1,60 @@
-# _{Application Name}_
+# _Pizza Parlor_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This is a website I created for my week 4 project at Epicodus. It focuses on the use of objects in JavaScript. 6.18.20_
 
-#### By _**{List of contributors}**_
+#### By _**Spencer Moody**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a mockup website for a fake pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost._
+
+## Specs
+
+| Spec | Input | Output |
+| :-------------      | :------------- | :------------- |
+| ** 1. The program will prompt user to select pizza toppings and desired size | Small, sausage and mushroom pizza | --
+| ** 2. The program will differentiate between regular and premium toppings | Premium Toppings: chicken and sausage, Regular Toppings: onions and olives | Total Price: $10.00 |
+| ** 3. The program will recognize the size of pizza and change the price based on the size | Medium pizza | $6.00 |
+| ** 4. The program will return a description of the pizza size and toppings based on what the user selected | Small, sausage and mushroom pizza | Your Pizza: Small, sausage and mushroom pizza |
+| ** 5. The program will give an option for multiple pizzas | Add another pizza | -- |
+|  |  |  |
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+ _Open by downloading:_
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. Double click index.html to open it in your web browser
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_Open via Bash/GitBash:_
+1. Clone this repository onto your computer:
+`https://github.com/smoody0208/week-3-project`
+2. Navigate into the `week-2-project` directory in Visual Studio Code or preferred text editor
+`code .`
+3. Open index.html in Chrome or preferred browser:
+`open index.html`
+
+You may also visit: https://smoody0208.github.io/week-4-project/
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any questions please feel free to contact Spencer at spencer.moody@outlook.com. Make any changes that you see fit!!_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _GitHub_
+* _HTML_
+* _CSS_
+* _BootStrap_
+* _Visual Studio Code_
+* _JavaScript_
+* _jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT LICENSE
 
-https://choosealicense.com/
-https://en.wikipedia.org/wiki/MIT_License
-https://en.wikipedia.org/wiki/GNU_General_Public_License
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Spencer Moody_**
