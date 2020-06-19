@@ -1,17 +1,13 @@
 html {
+
   scroll-behavior: smooth;
 }
 
 #section1 {
-  height: 600px;
-  background-color: pink;
+  height: 800px;
+  
 }
 
 #section2 {
-  padding-top: 20%;
-  height: 1000px;
-  background-color: yellow;
-}
-.container1 {
-  background-color: yellow;
+  height: 600px;
 }
