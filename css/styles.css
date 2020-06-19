@@ -3,11 +3,40 @@ html {
   scroll-behavior: smooth;
 }
 
+.display-4 {
+  color: white;
+  font-size: 200px;
+  text-decoration: underline;
+}
+
+.lead {
+  color: rgb(212, 1, 1);
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
 #section1 {
-  height: 800px;
+  height: 950px;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
 #section2 {
   height: 600px;
+}
+
+#pizza-order{
+ 
+}
+
+.btn {
+  font-size: 20px;
+}
+
+.hr {
+  color: blue;
 }
