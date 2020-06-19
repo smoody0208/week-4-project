@@ -1,104 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Week 4 Project</title>
-</head>
-<body>
-  <div class="#" id="section1"> 
-    <div class="row">
-      <div class="col-12">
-        <div class="min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
-          <h1 class="display-4">PIZZA.</h1><hr>
-          <p class="lead">"Anyone who says that money cannot buy happiness has clearly never spent their money on pizza." <br> - Andrew W.K.</p>
-            <p class="lead">
-            <a class="btn btn-primary btn-lg btn" href="#section2" role="button">Order</a>
-          </p>
-        </div>
-      </div>
-    </div>  
-  </div>
-  <div class="#" id="section2"> 
-    <div class="row">
-      <div class="col-12 p-0">
-        <div class="jumbotron min-vh-100 m-0 d-flex text-center flex-column justify-content-center">
-          <h1>Choose Your toppings!</h1>
-          <br>
-          <hr> 
-          <form id="pizza-order">
-            <div class="form-group">
-              <p>Select Your Premium Toppings Below ($2.00 per selection):</p>
-              <input type="checkbox" name="premium-topping" value="chicken">
-              <label for="premium-topping">Chicken</label><br>
-              <input type="checkbox" name="premium-topping" value="ground beef">
-              <label for="premium-topping">Ground Beef</label><br>
-              <input type="checkbox" name="premium-topping" value="bacon">
-              <label for="premium-topping">Bacon</label><br>
-              <input type="checkbox" name="premium-topping" value="extra cheese">
-              <label for="premium-topping">Extra Cheese</label><br>
-              <input type="checkbox" name="premium-topping" value="canadian bacon">
-              <label for="premium-topping">Canadian Bacon</label><br>
-              <input type="checkbox" name="premium-topping" value="sardines">
-              <label for="premium-topping">Sardines</label><br>
-              <input type="checkbox" name="premium-topping" value="avocado">
-              <label for="premium-topping">Avocado</label>
-            </div>
-            <div class="form-group">
-              <p>Select Your Standard Toppings Below ($1.00 per selection):</p>
-              <input type="checkbox" name="standard-topping" value="olives">
-              <label for="standard-topping">Olives</label><br>
-              <input type="checkbox" name="standard-topping" value="bell pepper">
-              <label for="standard-topping">Bell Pepper</label><br>
-              <input type="checkbox" name="standard-topping" value="onions">
-              <label for="standard-topping">Onions</label><br>
-              <input type="checkbox" name="standard-topping" value="spinach">
-              <label for="standard-topping">Spinach</label><br>
-              <input type="checkbox" name="standard-topping" value="jalapenos">
-              <label for="standard-topping">Jalapenos</label><br>
-              <input type="checkbox" name="standard-topping" value="pepperoni">
-              <label for="standard-topping">Pepperoni</label><br>
-              <input type="checkbox" name="standard-topping" value="cheese">
-              <label for="standard-topping">Cheese</label>
-            </div>
-            <div class="form-group">
-              <p>Select Your Pizza Size:</p>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="size" value="small" checked>
-                  Small
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="size" value="medium">
-                  Medium
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="size" value="large">
-                  Large
-                </label>
-              </div> 
-              <br>
-            <button class="btn btn-info btn-lg" type="submit">Order</button> 
-            <br>
-          </form>
-          <br>
-          <div id="output">
-            <h2>Thank You!</h2>
-            <p>Your Total is: $<span id="total"></span>.00</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Week 4 Project</title>
+  </head>
+  <body>
+    <div class="#" id="section1"> 
+      <div class="row">
+        <div class="col-12">
+          <div class="min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
+            <h1 class="display-4">PIZZA.</h1><hr>
+            <p class="lead">"Anyone who says that money cannot buy happiness has clearly never spent their money on pizza." <br> - Andrew W.K.</p>
+              <p class="lead">
+              <a class="btn btn-primary btn-lg btn" href="#section2" role="button">Order</a>
+            </p>
           </div>
-        </div>  
+        </div>
       </div>  
-    </div> 
-  </div>   
-</body>
+    </div>
+    <div class="#" id="section2"> 
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron min-vh-100 m-0 d-flex text-center flex-column justify-content-center">
+            <h1>Choose Your toppings!</h1>
+            <br>
+            <hr> 
+            <form id="pizza-order">
+              <div class="form-group">
+                <p>Select Your Premium Toppings Below ($2.00 per selection):</p>
+                <input type="checkbox" name="premium-topping" value="chicken">
+                <label for="premium-topping">Chicken</label><br>
+                <input type="checkbox" name="premium-topping" value="ground beef">
+                <label for="premium-topping">Ground Beef</label><br>
+                <input type="checkbox" name="premium-topping" value="bacon">
+                <label for="premium-topping">Bacon</label><br>
+                <input type="checkbox" name="premium-topping" value="extra cheese">
+                <label for="premium-topping">Extra Cheese</label><br>
+                <input type="checkbox" name="premium-topping" value="canadian bacon">
+                <label for="premium-topping">Canadian Bacon</label><br>
+                <input type="checkbox" name="premium-topping" value="sardines">
+                <label for="premium-topping">Sardines</label><br>
+                <input type="checkbox" name="premium-topping" value="avocado">
+                <label for="premium-topping">Avocado</label>
+              </div>
+              <div class="form-group">
+                <p>Select Your Standard Toppings Below ($1.00 per selection):</p>
+                <input type="checkbox" name="standard-topping" value="olives">
+                <label for="standard-topping">Olives</label><br>
+                <input type="checkbox" name="standard-topping" value="bell pepper">
+                <label for="standard-topping">Bell Pepper</label><br>
+                <input type="checkbox" name="standard-topping" value="onions">
+                <label for="standard-topping">Onions</label><br>
+                <input type="checkbox" name="standard-topping" value="spinach">
+                <label for="standard-topping">Spinach</label><br>
+                <input type="checkbox" name="standard-topping" value="jalapenos">
+                <label for="standard-topping">Jalapenos</label><br>
+                <input type="checkbox" name="standard-topping" value="pepperoni">
+                <label for="standard-topping">Pepperoni</label><br>
+                <input type="checkbox" name="standard-topping" value="cheese">
+                <label for="standard-topping">Cheese</label>
+              </div>
+              <div class="form-group">
+                <p>Select Your Pizza Size:</p>
+                <div id="size-style">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="size" value="small" checked>
+                      <strong>Small</strong>
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="size" value="medium">
+                      <strong>Medium</strong>
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="size" value="large">
+                      <strong>Large</strong>
+                    </label>
+                  </div> 
+                </div>  
+                <br>
+                <button class="btn btn-info btn-lg" type="submit">Order</button> 
+              </div>  
+              <br>
+            </form>
+            <br>
+            <div id="output">
+              <h2>Thank You!</h2>
+              <p>Your Total is: $<span id="total"></span>.00</p>
+            </div>
+          </div>  
+        </div>  
+      </div> 
+    </div>   
+  </body>
 </html>
 

@@ -9,27 +9,28 @@ html {
 }
 
 .lead {
-  color: rgb(212, 1, 1);
+  color: white;
   font-size: 19px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 #section1 {
   height: 950px;
   background-image: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 #output {
   display: none;
 }
 
+.jumbotron {
+  background-color: tomato;
+}
 #section2 {
   height: 600px;
+  background-color: tomato;
 }
 
 #pizza-order{
