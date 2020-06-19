@@ -11,45 +11,52 @@
   <title>Week 4 Project</title>
 </head>
 <body>
-  <div class="container">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div class="jumbotron min-vh-100 text-center m-0 bg-info d-flex flex-column justify-content-center">
+            <h1 class="display-4">PIZZA.</h1><hr>
+            <p class="lead">"Anyone who says that money cannot buy happiness has clearly never spent their money on pizza."</p>
+            <p> - Andrew W.K.</p>
+              <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+      </div>  
     </div>
     <form id="pizza-order">
       <div class="form-group">
         <p>Select Your Premium Toppings Below ($2.00 per selection):</p>
         <input type="checkbox" name="premium-topping" value="chicken">
-        <label for="premium-topping">Chicken</label>
+        <label for="premium-topping">Chicken</label><br>
         <input type="checkbox" name="premium-topping" value="ground beef">
-        <label for="premium-topping">Ground Beef</label>
+        <label for="premium-topping">Ground Beef</label><br>
         <input type="checkbox" name="premium-topping" value="bacon">
-        <label for="premium-topping">Bacon</label>
+        <label for="premium-topping">Bacon</label><br>
         <input type="checkbox" name="premium-topping" value="extra cheese">
-        <label for="premium-topping">Extra Cheese</label>
+        <label for="premium-topping">Extra Cheese</label><br>
         <input type="checkbox" name="premium-topping" value="canadian bacon">
-        <label for="premium-topping">Canadian Bacon</label>
+        <label for="premium-topping">Canadian Bacon</label><br>
         <input type="checkbox" name="premium-topping" value="sardines">
-        <label for="premium-topping">Sardines</label>
+        <label for="premium-topping">Sardines</label><br>
         <input type="checkbox" name="premium-topping" value="avocado">
         <label for="premium-topping">Avocado</label>
       </div>
       <div class="form-group">
         <p>Select Your Standard Toppings Below ($1.00 per selection):</p>
         <input type="checkbox" name="standard-topping" value="olives">
-        <label for="standard-topping">Olives</label>
+        <label for="standard-topping">Olives</label><br>
         <input type="checkbox" name="standard-topping" value="bell pepper">
-        <label for="standard-topping">Bell Pepper</label>
+        <label for="standard-topping">Bell Pepper</label><br>
         <input type="checkbox" name="standard-topping" value="onions">
-        <label for="standard-topping">Onions</label>
+        <label for="standard-topping">Onions</label><br>
         <input type="checkbox" name="standard-topping" value="spinach">
-        <label for="standard-topping">Spinach</label>
+        <label for="standard-topping">Spinach</label><br>
         <input type="checkbox" name="standard-topping" value="jalapenos">
-        <label for="standard-topping">Jalapenos</label>
+        <label for="standard-topping">Jalapenos</label><br>
         <input type="checkbox" name="standard-topping" value="pepperoni">
-        <label for="standard-topping">Pepperoni</label>
+        <label for="standard-topping">Pepperoni</label><br>
         <input type="checkbox" name="standard-topping" value="cheese">
         <label for="standard-topping">Cheese</label>
       </div>
@@ -73,7 +80,7 @@
           </label>
         </div>
       </div> 
-      <button class="btn" type="submit">Order</button> 
+      <button class="btn btn-info btn-lg" type="submit">Order</button> 
     </form>
     <div id="output">
 
