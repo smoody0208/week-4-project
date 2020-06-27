@@ -16,8 +16,6 @@ _This is a mockup website for a fake pizza company where a user can choose one o
 | ** 2. The program will differentiate between regular and premium toppings | Premium Toppings: chicken and sausage, Regular Toppings: onions and olives | Total Price: $10.00 |
 | ** 3. The program will recognize the size of pizza and change the price based on the size | Medium pizza | $6.00 |
 | ** 4. The program will return a description of the pizza size and toppings based on what the user selected | Small, sausage and mushroom pizza | Your Pizza: Small, sausage and mushroom pizza |
-| ** 5. The program will give an option for multiple pizzas | Add another pizza | -- |
-|  |  |  |
 
 ## Setup/Installation Requirements
 
